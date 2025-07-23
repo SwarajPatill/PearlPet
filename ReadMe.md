@@ -18,6 +18,12 @@ This Java Selenium project automates tasks on the Pearlpet site, including navig
 3. Extracting menu items and  storing them in collections
 4. Navigating  to the home page and other menu options.
 
+## Update:
+- Added new test cases for Login module
+- Improved the structure of reports
+- Added screenshots folder for better debugging
+
+
 ### Tools and Technologies Used
 - Java
 - Selenium WebDriver
