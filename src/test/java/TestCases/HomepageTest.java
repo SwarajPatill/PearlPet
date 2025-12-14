@@ -17,9 +17,11 @@ public class HomepageTest extends BaseClass {
 		Hp.click_home();;
 	
 		log.info("HomePage verified successfully....");
-		
-	
-	}
+        System.out.println("     in seperate branch ---------Git + IntelliJ practice by Swaraj");
+
+
+
+    }
 	
 	@Test(priority=2,groups= {"sanity","Regression","smoke"})
 	public void Verify_title() {
@@ -31,5 +33,8 @@ public class HomepageTest extends BaseClass {
 		System.out.println(Actual_Title);
 		log.info("Title verified successfully....");
 
-	}
+        System.out.println("Git + IntelliJ practice by Swaraj");
+
+
+    }
 }
