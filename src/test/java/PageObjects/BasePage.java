@@ -10,6 +10,9 @@ public class BasePage {
 		this.driver = driver;
 		PageFactory.initElements(driver, this);
 	}
+
+    public BasePage() {
+    }
 }
 
 //IT only contain the constuctor 
